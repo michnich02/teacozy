@@ -18,16 +18,16 @@ a {
 }
 
 h2 {
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
 h4 {
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 /****** Header ******/
 
@@ -84,13 +84,17 @@ nav span {
 
 .teaofthemonth {
   width: 1000px;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .teas {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.teas p {
+  margin-bottom: 10px;
 }
 
 .teas img {
@@ -123,4 +127,24 @@ nav span {
   width: 300px;
   height: 300px;
   opacity: 1;
+  /* display: block; */
+  /* align-content: space-around; */
+}
+
+/****** Contact ******/
+
+.contact {
+  height: 200px;
+  display: block;
+}
+
+.contact h5 {
+  margin: 30px 0px;
+}
+
+/****** Footer ******/
+
+footer {
+  text-align: left;
+  margin: 20px;
 }
