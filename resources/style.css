@@ -71,6 +71,7 @@ nav span {
   background-image: url("images/img-mission-background.jpg");
   background-size: auto;
   background-repeat: no-repeat;
+  background-position: center;
   height: 700px;
 }
 
@@ -107,18 +108,18 @@ nav span {
 
 .locations {
   height: 500px;
-  /* display: inline-flex; */
-  /* align-items: center; */
+  width: 1200px;
   background-image: url("images/img-locations-background.jpg");
   background-size: auto;
   background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
 }
 
 .locationblocks {
   justify-content: center;
   display: flex;
   /* margin: auto; */
-  /* background-color: black; */
 }
 
 .block {
@@ -127,6 +128,7 @@ nav span {
   width: 300px;
   height: 300px;
   opacity: 1;
+  border: 1px solid red;
   /* display: block; */
   /* align-content: space-around; */
 }
