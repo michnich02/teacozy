@@ -25,10 +25,6 @@ h4 {
   margin: 15px 0px;
 }
 
-/* div {
-  border: 1px solid red;
-} */
-
 /****** Header ******/
 
 header {
@@ -42,7 +38,6 @@ header {
   align-items: center;
   border-bottom: 1px solid seashell;
   width: 100%;
-  /* z-index: 5; */
 }
 
 header img {
