@@ -69,7 +69,6 @@ nav span {
   display: inline-flex;
   align-items: center;
   background-image: url("images/img-mission-background.jpg");
-  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
@@ -78,14 +77,16 @@ nav span {
 .missionbanner {
   width: 1200px;
   background-color: black;
-  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 /****** Tea of the Month ******/
 
 .teaofthemonth {
   width: 1000px;
-  margin: 50px auto;
+  margin: auto;
+  padding-top: 69px;
 }
 
 .teas {
@@ -110,16 +111,17 @@ nav span {
   height: 500px;
   width: 1200px;
   background-image: url("images/img-locations-background.jpg");
-  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .locationblocks {
   justify-content: center;
   display: flex;
-  /* margin: auto; */
 }
 
 .block {
@@ -128,20 +130,21 @@ nav span {
   width: 300px;
   height: 300px;
   opacity: 1;
-  border: 1px solid red;
-  /* display: block; */
-  /* align-content: space-around; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /****** Contact ******/
 
 .contact {
   height: 200px;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact h5 {
-  margin: 30px 0px;
+  margin: 15px 0px;
 }
 
 /****** Footer ******/
