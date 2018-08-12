@@ -69,7 +69,7 @@ nav span {
   height: 700px;
 }
 
-.missionbanner {
+.mission-banner {
   width: 1200px;
   background-color: black;
   display: flex;
@@ -78,7 +78,7 @@ nav span {
 
 /****** Tea of the Month ******/
 
-.teaofthemonth {
+.tea-of-the-month {
   width: 1000px;
   margin: auto;
   padding-top: 69px;
@@ -114,7 +114,7 @@ nav span {
   justify-content: center;
 }
 
-.locationblocks {
+.location-blocks {
   justify-content: center;
   display: flex;
 }
